@@ -11,7 +11,11 @@ fun main(args: Array<String>) {
     numbersMap.replace(2,"2nd")
     numbersMap.remove(8)
     println(numbersMap)
+    // *** Part 2  ***
 
+    var lettersMap= mutableMapOf('A' to "letter a",'B' to "letter B",'C' to "letter c")
+    lettersMap.putAll(listOf("letter E","letter F").mapIndexed{ index,item -> index.toChar() to item })
+    println(lettersMap)
 
 
 }
