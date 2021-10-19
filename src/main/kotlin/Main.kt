@@ -16,6 +16,14 @@ fun main(args: Array<String>) {
     var lettersMap= mutableMapOf('A' to "letter a",'B' to "letter B",'C' to "letter c")
     lettersMap.putAll(listOf("letter E","letter F").mapIndexed{ index,item -> index.toChar() to item })
     println(lettersMap)
-
+    // ***  Bounce ***
+    var x=5
+    for(num1 in 1..x){
+        for(num2 in 1..num1)
+        {
+            print("$num2*$num1=${num1*num2}\t")
+        }
+        println()
+    }
 
 }
