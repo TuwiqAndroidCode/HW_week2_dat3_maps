@@ -22,4 +22,16 @@ println(NorasFavoriteStuff)
     //add list
     toWatch.putAll(listOf(4 to "kill it", 5 to "Hometown Cha-Cha-Cha" , 6 to "lost"))
     println(toWatch)
+    //bounce question
+    var num1 = 1;
+    var num2 =1
+    for (guard in 1..num1 ){
+        if (num1<=5){
+      for(counter in 1..guard){
+          print("$num2 * $num1  \t")
+          num1++
+
+      }}
+        println()
+    }
 }
