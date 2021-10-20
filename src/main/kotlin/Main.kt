@@ -22,17 +22,15 @@ var mapLamia = mutableMapOf<String,String>(
     mapList.putAll(listOf("Swift", "PHP" , "Python").mapIndexed({x, y -> x.toString() to y }))
     println(mapList)
 
-
+    println("-------------------------------")
 
     var i = 5
     var j = 1
     for(i in j..i){
         for(j in j..i) {
-            print("$i X $j - ")
-        }
+            print("1 X $j - ") }
         println()
-        j=+1
-    }
+        j=+1 }
 
 
 
