@@ -1,4 +1,5 @@
 fun main() {
+    "."
 // part |
     val firstMap = mapOf<Int,Char>(0 to 'a',1 to 'b',2 to 'c',3 to 'd'  ).toMutableMap() // creating map with 4 elements
     firstMap += 4 to 'e' // adding new element

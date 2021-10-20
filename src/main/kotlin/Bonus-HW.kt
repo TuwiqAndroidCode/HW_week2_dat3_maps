@@ -1,6 +1,6 @@
 fun main() {
 
-
+"."
 
     for (row in 1..readLine()!!.toInt()) {
         for (col in 1..row){
