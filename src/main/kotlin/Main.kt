@@ -27,10 +27,12 @@ var mapLamia = mutableMapOf<String,String>(
 
     var i = 5
     var j = 1
+
     for(i in j..i){
         for(j in j..i) {
-            print("1 X $j - ") }
+            print(" - 1 X $j  ")
 
+        }
         println()
         j=+1 }
 
